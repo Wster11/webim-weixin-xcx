@@ -18,6 +18,7 @@
 		chatType="{{ chatType }}"
 		bind:newTextMsg="saveSendMsg"
 		bind:newImageMsg="saveSendMsg"
+		bind:newFileMsg="saveSendMsg"
 		bind:newLocationMsg="saveSendMsg"
 		bind:newVideoMsg="saveSendMsg"
 		bind:tapSendAudio="toggleRecordModal"
